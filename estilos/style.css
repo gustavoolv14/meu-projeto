@@ -6,11 +6,12 @@
     box-sizing: border-box;
 }
 
-body {
+html, body {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5em;
-    width: 100vw;
-    height: 100vh;
+    max-width: 100%;
+    overflow-x: hidden;
+
 }
 
 header {
@@ -28,8 +29,7 @@ h1, h2 {
 
 main {
     background-color: #190c5a;
-
-    padding: 10px;
+    padding: 5px;
 }
 section p {
     color: whitesmoke;
@@ -39,7 +39,6 @@ section p {
 }
 
 section.flex-container {
-    padding: 20px;
     /* Flexbox */
     display: flex;
     flex-flow: column nowrap;
