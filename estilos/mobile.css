@@ -1,2 +1,9 @@
 @charset "UTF-8";
 
+body {
+    scrollbar-width: none;
+}
+div.media {
+    flex-basis: 100px;
+    width: 100vw;
+}
