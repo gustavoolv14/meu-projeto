@@ -2,7 +2,7 @@
 
 @media  screen and (max-width: 768px ) {
     section.fle-container {
-        width: 100%;
+        width: 30%;
         flex-direction: column;
     }
 }
