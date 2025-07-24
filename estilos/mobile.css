@@ -7,3 +7,9 @@ div.media {
     flex-basis: 100px;
     width: 100vw;
 }
+
+div.medai > img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
