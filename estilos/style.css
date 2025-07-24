@@ -59,6 +59,20 @@ article > div.media {
     flex: 1 0 400px;
 }
 
+article a {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+article a:hover {
+    color: #4d4d4d;
+}
+
+article a::after {
+    content: "\1F517";
+}
 div.media > img {
     display: block; 
     margin: auto;
@@ -68,15 +82,7 @@ div.media > img {
     
 }
 
-article a {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-}
 
-article a:hover {
-    color: #4d4d4d;
-}
 div.media > iframe {
     display: block;
     margin: auto;
