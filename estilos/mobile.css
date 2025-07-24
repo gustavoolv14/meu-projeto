@@ -1,12 +1,8 @@
 @charset "UTF-8";
 
-body {
-    scrollbar-width: none;
-}
-
-
-div.medai > img {
-    max-width: 100%;
-    height: auto;
-    display: block;
+@media  screen and (max-width: 768px ) {
+    section.fle-container {
+        width: 100%;
+        flex-direction: column;
+    }
 }
